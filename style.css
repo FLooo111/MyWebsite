@@ -1,12 +1,10 @@
-html {
-  padding: 0;
-}
+
 .top-container {
  position: fixed;
  display: flex;
  width: 100%;
  flex-direction: row-reverse;
- background-color: rgb(231, 223, 223);
+ background-color: rgb(159, 156, 160);
  transition: top 0.01s;
  top: 0;
  left: 0;
@@ -17,16 +15,22 @@ html {
   display: block;
   color: rgb(30, 68, 55);
   text-align: center;
-  padding: 10px 15px;
   font-family: sans-serif;
   font-size: 24px;
+  padding: 10px 15px;
+  text-decoration: none;
 }
 
 .topnav a:hover {
-  background-color: #5d5674;
-  color: rgb(51, 44, 59);
+  background-color: #d0cbe0;
+  color: rgb(53, 75, 132);
+  text-decoration: none;
 }
 
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .middle-container {
   background-color: rgb(222, 230, 235);
   display: flex;
@@ -68,7 +72,6 @@ html {
   flex-direction: column;
   align-items: center;
   background-color: rgb(207, 220, 220);
-  border-radius: 10px;
   width: 100%;
   padding: 0px;
   text-align: left;
